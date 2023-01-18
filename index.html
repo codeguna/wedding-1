@@ -42,10 +42,40 @@
   </head>
 
   <body>
+    <!-- POP UP -->
+    <div id="popup" class="modal">
+      <!-- and here comes the image -->
+      <img
+          src="../images/popup.png"
+          alt="you're Invited"
+          style="
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 150px;
+              width: 50%;
+          "
+      />
+
+      <!-- Now this is the button which closes the popup-->
+      <br />
+      <audio id="player" src="backsound.mp3" autoplay></audio>
+      <button
+          style="margin: 0 auto; display: block"
+          class="btn btn-warning"
+          id="submit"
+          onclick="document.getElementById('player').play()"
+          data-dismiss="modal"
+      >
+          <i class="fa fa-heart"></i> Buka Undangan
+          <i class="fa fa-heart"></i>
+      </button>
+  </div>
+    <!-- END OF POP UP -->
     <!-- Begin Preloader -->
     <div class="preloader-wrapper">
       <div class="preloader">
-        <img src="image/favicon.png" alt="Flower" />
+        <img src="../image/loading.png"/>
       </div>
     </div>
     <!-- End Preloader-->
@@ -449,5 +479,10 @@
         duration: 800,
       });
     </script>
+    <script>
+      $(window).on("load", function () {
+          $("#popup").modal("show");
+      });
+  </script>
   </body>
 </html>
