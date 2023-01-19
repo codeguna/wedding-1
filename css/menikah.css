@@ -648,3 +648,20 @@ body.preloader-site {
     text-align: center;
     padding: 10px;
 }
+#popup {
+    height: 660px;   
+    width: 550px;
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+ }
+ }
+ 
+ #popup.hidden {
+   display: none;
+ }
+ #popup.fade-in {
+   opacity: 1;
+ }
+ 
