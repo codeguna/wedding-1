@@ -131,12 +131,12 @@ html {
 }
 
 .main-content .section-dark {
-    background-color: #f4e2e2;
+    background-color: #E9DABB;
     padding: 80px 40px;
 }
 
 .main-content .section-darker {
-    background-color: #edd2d1;
+    background-color: #E9DABB;
     padding: 80px 40px;
 }
 
@@ -348,7 +348,7 @@ html {
     line-height: 25px;
     text-align: center;
     vertical-align: middle;
-    background: #c28285;
+    background: #D4B587;
     color: whitesmoke;
 }
 
@@ -437,7 +437,7 @@ body.preloader-site {
 .preloader-wrapper {
     height: 100%;
     width: 100%;
-    background: #d8a9a8;
+    background: #E9DABB;
     position: fixed;
     top: 0;
     left: 0;
