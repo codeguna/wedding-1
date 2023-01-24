@@ -39,8 +39,8 @@ html {
 .hero {
     background-image: url(../image/bg.jpg);
     background: linear-gradient(
-            rgba(155, 96, 73, 0.445),
-            rgba(150, 94, 72, 0.555)
+        rgb(211 177 163 / 45%),
+        rgb(140 93 76 / 56%)
         ),
         rgba(0, 0, 0, 0.55) url(../image/bg.jpg) no-repeat;
     background-attachment: fixed;
